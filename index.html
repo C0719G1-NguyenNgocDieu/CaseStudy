@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h1>Quản lý sản phẩm</h1>
+<div class="add">
+<input id="name" placeholder="Nhập tên" type="text"/>
+<input id="id" placeholder="Nhập mã" type="text"/>
+<input id="amount" placeholder="Nhập số lượng" type="number"/>
+<input id="value" placeholder="Nhập giá" type="number"/>
+<button onclick="Add()">Thêm</button>
+</div>
+
+<div class="seach">
+    <input id="search" type="text" name="search" placeholder="Search..">
+    <button onclick="Search()">Tìm kiếm</button>
+</div>
+
+<div style="height: 100px">
+    <p id="result"></p>
+</div>
+
+<p id="table"></p>
+
+
+<script src="products.js"></script>
+<script src="productsShow.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</body>
+</html>

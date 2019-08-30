@@ -1,0 +1,54 @@
+input[type="text"] {
+    width: 80px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+}
+input[type="text"]:focus{
+    width:200px;
+}
+input[type="text"] {
+    width: 80px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+
+    transition:0.6s ease-in-out;
+}input[type="number"] {
+    width: 80px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+}
+input[type="number"]:focus{
+    width:100px;
+}
+input[type="number"] {
+    width: 80px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+
+    transition:0.6s ease-in-out;
+}
+.add{
+    float: left;
+    width: 80%;
+}
+
+.fas{
+    width: 20px;
+    height: 10px;
+}
+.material-icons{
+    width: 20px;
+    height: 10px;
+}
